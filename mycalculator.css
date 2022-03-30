@@ -1,0 +1,133 @@
+body{
+    background-color: pink;
+}
+.top
+{
+    color: black;
+
+}
+button {
+    font-size: 26px;
+  }
+.top1
+{
+    color: darkgreen;
+    padding-left: 207px;
+}
+.disc
+{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.container2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px;
+     grid-template-areas: 
+    "header header header header" 
+    "main main main main" 
+    "main main main main" 
+    "main main main main" 
+    "main main main main" 
+    "main main main main";
+}
+ button.btn
+  {
+    font-family: 'Orbitron', sans-serif;
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 20px;
+        text-align: center;
+        margin: 4px 2px;
+        border-radius: 50%;
+      
+  }
+  button.btn:hover{
+    color: lightpink;
+  }
+  button.btn:focus{
+    color: palevioletred;
+  }
+  button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+  }
+  .item-header {
+    grid-area: header;
+    color: black;
+  }
+  
+  #globalAnswer {
+    background-color: black;
+    font-size: 1px;
+  }
+  
+  #currentValue {
+    border-radius: 10px;
+    color: black   ;
+    font-size: 27px;
+    height: 2100px;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    text-align: right;
+  }
+   
+  button.blue {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(119, 32, 106);
+    color: white;
+    outline: none;
+  }
+  button.blue:focus {
+    background-color: rgb(119, 32, 106);
+    color: white;
+    outline: none;
+  }
+            
+  button.orange:focus {
+    background-color: lightpink;
+    color: darkmagenta;
+    outline: none;
+  }
+  
+  button.brown {
+    background-color: rgb(119, 32, 106);
+    color: white;
+    outline: none;
+  }
+  
+  button.brown:focus {
+    background-color: rgb(119, 32, 106);
+    color: white;
+    outline: none;
+  }
+  
+  button.equals {
+    background-color: rgb(49, 44, 44);
+    color: white;
+  }
+  
+  button.equals:focus {
+    background-color: rgb(83, 83, 207);
+    color: white;
+    outline: none;
+  }
+  
+  button.zero {
+    text-align: left;
+    padding-left: 32px;
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    border-radius: 50px;
+  }
+   
+  #globalAnswer {
+    background-color: black;
+    font-size: 1px;
+  }
+  
+  
